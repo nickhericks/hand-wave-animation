@@ -142,11 +142,11 @@ body.modal-is-open .modal-container {
 
 
 .big-hand {
-	font-size: 4rem;
+	font-size: 6rem;
 }
 
 .wave {
-  animation-name: wave-animation;    /* Refers to the name of your @keyframes element below */
+  animation-name: wave-animation;    /* Name of @keyframes element below */
   animation-duration: 2.5s;          /* Change to speed up or slow down */
   animation-iteration-count: infinite;    /* Never stop waving :) */
   transform-origin: 70% 70%;         /* Pivot around the bottom-left palm */
@@ -155,7 +155,8 @@ body.modal-is-open .modal-container {
 
 @keyframes wave-animation {
     0% { transform: rotate(  0.0deg) }
-   10% { transform: rotate(-10.0deg) }    /* The following four values can be played with to make the waving more or less extreme */
+	 10% { transform: rotate(-10.0deg) }    
+	 /* The following four values can be played with to make the waving more or less extreme */
    20% { transform: rotate( 12.0deg) }
    30% { transform: rotate(-10.0deg) }
    40% { transform: rotate(  9.0deg) }

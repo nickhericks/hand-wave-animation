@@ -1,16 +1,17 @@
-// Open modal
-const openModal = () => {
-	document.body.classList.add('modal-is-open');
-};
 
-// Close modal
-const closeModal = () => {
-	document.body.classList.remove('modal-is-open');
-};
+
+
+
+const container = document.querySelector(".container");
+
+
 
 // Wave hand
 const wave = () => {
-	const hand = document.querySelector('.wave-hand');
+	const hand = document.querySelector('.big-hand');
+
+
+	
 	const tl = new TimelineMax({});
 	tl.set(hand, { transformOrigin: 'bottom center' });
 	tl.from(hand, 0.5, {
@@ -26,20 +27,7 @@ const wave = () => {
 };
 
 
-const toggleButton = document.querySelector('.jsModalToggle');
-const closeButton = document.querySelector('.jsModalClose');
-const container = document.querySelector('.modal-container');
 
-
-toggleButton.addEventListener('click', () => {
-	openModal();
+container.addEventListener('click', () => {
 	wave();
-});
-
-closeButton.addEventListener('click', closeModal);
-
-container.addEventListener('click', e => {
-	if (!e.target.closest('.modal')) {
-		closeModal();
-	}
 });
