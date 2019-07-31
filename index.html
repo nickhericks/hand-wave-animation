@@ -1,63 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Hand Wave</title>
+		<title>Hand Wave</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/styles.css">
-  <script src="js/prefixfree.js"></script>
-</head>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<script src="js/prefixfree.js"></script>
+	</head>
 
-<body>
-  <div class="container">
-    <div>
-      <button class="button jsModalToggle">Click me!</button>
-      <svg class="point-hand" viewBox="0 0 58 66">
-        <use xlink:href="images/sprite.svg#point-hand" />
-			</svg>
-			<span class="point-hand">
+	<body>
+		<div class="container">
+			<span class="wave big-hand">
 				👋
 			</span>
-    </div>
-  </div>
+		</div>
 
-  <div class="modal-container">
-    <div class="modal">
-      <button class="modal__close jsModalClose">
-        <svg viewBox="0 0 18 18">
-          <use xlink:href="images/sprite.svg#close" />
-        </svg>
-      </button>
-      <div class="modal__content">
-        <h2>Hello!</h2>
-        <!-- <svg class="wave-hand" width="112" height="139" viewBox="0 0 112 139">
-          <use xlink:href="images/sprite.svg#wave-hand" />
-				</svg> -->
-				<span class="wave big-hand">
-					👋
-				</span>
-        <p>
-          I've altered this modal to<br>
-          not only close when the 'x' is clicked,<br>
-          but when the user clicks anywhere<br>
-          on the body of the page. 😜
+		<script src="js/main.js"></script>
 
-        </p>
-
-      </div>
-    </div>
-  </div>
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
-  <script src="js/main.js"></script>
-
-</body>
-
+	</body>
 </html>
