@@ -1,0 +1,138 @@
+/**
+ * Base styles and typography
+ * --------------------------
+ */
+
+:root {
+  --color-purp: #8da1ff;
+  --color-lily: #e9fbff;
+  --color-purp-dark: #5e7af0;
+}
+
+html {
+  font-size: 150%;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4;
+}
+
+body {
+  background-color: var(--color-lily);
+}
+
+h2 {
+  font-weight: 400;
+}
+
+.button {
+  padding: 0.5em 0.75em;
+  border-radius: 6px;
+  background-color: var(--color-purp);
+  color: #fff;
+}
+
+.button:hover,
+.button:active,
+.button:focus {
+  background-color: var(--color-purp-dark);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container > * {
+  position: relative;
+}
+
+.container button {
+  display: block;
+}
+
+.container svg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  max-width: 3em;
+  margin-top: 1em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/**
+ * START EDITING HERE
+ * ==================
+ */
+
+.modal-container {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.3s ease-out, z-index 0s 0.3s;
+}
+
+body.modal-is-open .modal-container {
+  opacity: 1;
+  z-index: 1;
+  transition-delay: 0s;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 3em;
+  border-radius: 12px;
+  background-color: var(--color-purp);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+  color: #fff;
+  min-width: 50vmin;
+  min-height: 50vmin;
+}
+
+.modal__close {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  width: 1em;
+}
+
+.modal__close:hover,
+.modal__close:active,
+.modal__close:focus {
+  color: var(--color-purp-dark);
+}
+
+.modal__content {
+  text-align: center;
+}
+
+.modal__content > * + * {
+  margin-top: 0.75em;
+}
+
+/* Point hand animation */
+@keyframes point {
+  0% {
+    opacity: 0;
+    transform: translateY(3em);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.point-hand {
+  animation: point 1s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
