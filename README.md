@@ -1,4 +1,4 @@
-# 👋 Animated hand wave emoji
+# 👋 Animated hand wave emoji on mouse hover
 Hand wave emoji is animated by moving back and forth when a user hovers their mouse over it.
 
 ## View project
