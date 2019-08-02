@@ -6,7 +6,7 @@
 	animation-play-state: paused;
   transform-origin: 70% 70%;	/* Pivot around the bottom-left palm */
 	display: inline-block;
-	font-size: 10rem;
+	font-size: 8rem;
 }
 
 .wave:hover {
