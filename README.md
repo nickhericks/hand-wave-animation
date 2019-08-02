@@ -1,5 +1,5 @@
-# Hand Wave component
-> Waving hand emoji is animated by moving back and forth when user hovers mouse.
+# 👋 Animated Hand Wave component
+> Hand wave emoji is animated by moving back and forth when user hovers mouse.
 
 ## View project
  :mag: Live version available at [nickhericks.github.io/hand-wave/](https://nickhericks.github.io/hand-wave/)
