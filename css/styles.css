@@ -145,21 +145,20 @@ body.modal-is-open .modal-container {
 	font-size: 6rem;
 }
 
+
+/* Big thanks to https://jarv.is/notes/css-waving-hand-emoji/ */
 .wave {
   animation-name: wave-animation;    /* Name of @keyframes element below */
-  animation-duration: 2.5s;          /* Change to speed up or slow down */
-  animation-iteration-count: infinite;    /* Never stop waving :) */
-  transform-origin: 70% 70%;         /* Pivot around the bottom-left palm */
+	animation-duration: .75s;          /* Change to speed up or slow down */
+	animation-timing-function: ease-in-out;
+  animation-iteration-count: 0;
+  transform-origin: 70% 70%;	/* Pivot around the bottom-left palm */
   display: inline-block;
 }
 
 @keyframes wave-animation {
-    0% { transform: rotate(  0.0deg) }
-	 10% { transform: rotate(-10.0deg) }    
-	 /* The following four values can be played with to make the waving more or less extreme */
-   20% { transform: rotate( 12.0deg) }
-   30% { transform: rotate(-10.0deg) }
-   40% { transform: rotate(  9.0deg) }
-   50% { transform: rotate(  0.0deg) }    /* Reset for the last half to pause */
-  100% { transform: rotate(  0.0deg) }
+  0% { transform: rotate( 0.0deg) }
+  25% { transform: rotate( -10.0deg) }
+	75% { transform: rotate(12.0deg) }    
+  100% { transform: rotate( 0.0deg) }
 }
