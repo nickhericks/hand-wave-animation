@@ -150,10 +150,15 @@ body.modal-is-open .modal-container {
 .wave {
   animation-name: wave-animation;    /* Name of @keyframes element below */
 	animation-duration: .75s;          /* Change to speed up or slow down */
-	animation-timing-function: ease-in-out;
-  animation-iteration-count: 0;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-play-state: paused;
   transform-origin: 70% 70%;	/* Pivot around the bottom-left palm */
-  display: inline-block;
+	display: inline-block;
+}
+
+.wave:hover {
+	animation-play-state: running;
 }
 
 @keyframes wave-animation {
