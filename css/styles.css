@@ -1,10 +1,6 @@
-
-
-
-/* Big thanks to https://jarv.is/notes/css-waving-hand-emoji/ */
 .wave {
   animation-name: wave-animation;    /* Name of @keyframes element below */
-	animation-duration: .75s;          /* Change to speed up or slow down */
+	animation-duration: .75s;          /* Wave speed */
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	animation-play-state: paused;
@@ -14,7 +10,7 @@
 }
 
 .wave:hover {
-	animation-play-state: running;
+	animation-play-state: running; /* Play animation on mouse hover */
 }
 
 @keyframes wave-animation {
