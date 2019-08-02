@@ -1,15 +1,13 @@
-# 👋 Animated Hand Wave component
-> Hand wave emoji is animated by moving back and forth when user hovers mouse.
+# 👋 Animated hand wave emoji
+Hand wave emoji is animated by moving back and forth when a user hovers their mouse over it.
 
 ## View project
- :mag: Live version available at [nickhericks.github.io/hand-wave/](https://nickhericks.github.io/hand-wave/)
+ :mag: View live version here: [nickhericks.github.io/hand-wave/](https://nickhericks.github.io/hand-wave/)
 
 ## Project details
-I had the 👋 emoji on [my website](https://nickhericks.com) for about a year before I had the idea to animate it when a user hovers over it with their mouse. I thought it might be fun to add this as an easter egg for users that randomly drag their mouse over the emoji and discover it accidentally. I love finding little easter eggs like this on other sites  Also, I figured building it might be a good way for me to practice using CSS animation.
+I had the 👋 emoji on [my website](https://nickhericks.com) for about a year before I had the idea to animate it when a user hovers over it with their mouse. I thought it might be a fun surprise for users to discover. I know for me, finding easter eggs like this on other websites brings me a small bit of joy so the idea was that this might do the same. :)
 
-Upon researching how to make the hand wave on mouse hover, I came across [this blog post](https://jarv.is/notes/css-waving-hand-emoji/) by Jake Jarvis. Jake's version focuses on making the hand wave continuously so they are slightly different, but beyond that we kind of had the same thing in mind so the article was obviously very helpful in understanding how to achieve the desired outcome.
-
-## Using the animated hand wave component
+## Using the animated hand wave emoji
 1. Add the span tag to your HTML file: `<span class="wave">👋</span>`
 
 2. Add the following CSS to your project's CSS file:
@@ -37,6 +35,6 @@ Upon researching how to make the hand wave on mouse hover, I came across [this b
 }
 ```
 
-<!-- 
-## Demo
-<img src="https://github.com/zellwk/jsf/raw/master/images/components/modal/animate/complete.gif" width="500"> -->
+## Acknowledgements
+Big thanks to Jake Jarvis for [this blog post](https://jarv.is/notes/css-waving-hand-emoji/)
+which helped me better understand how to use CSS animations. :raised_hands:
