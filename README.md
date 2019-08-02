@@ -8,13 +8,9 @@
 I had the 👋 emoji on [my website](https://nickhericks.com) for about a year before I had the idea to animate it when a user hovers over it with their mouse. I thought it might be fun to add this as an easter egg for users that randomly drag their mouse over the emoji and discover it accidentally. I love finding little easter eggs like this on other sites  Also, I figured building it might be a good way for me to practice using CSS animation.
 
 Upon researching how to make the hand wave on mouse hover, I came across [this blog post](https://jarv.is/notes/css-waving-hand-emoji/) by Jake Jarvis. Jake's version focuses on making the hand wave continuously so they are slightly different, but beyond that we kind of had the same thing in mind so the article was obviously very helpful in understanding how to achieve the desired outcome.
-This project is part of a great JS course called [Learn JavaScript](https://learnjavascript.today/). Thank you to the course creator [@zellwk](https://github.com/zellwk) :raised_hands:
 
-## Add the hand wave component to a project
-1. Add the span tag to your HTML file:
-```HTML
-<span class="wave">👋</span>
-```
+## Using the animated hand wave component
+1. Add the span tag to your HTML file: `<span class="wave">👋</span>`
 
 2. Add the following CSS to your project's CSS file:
 ```CSS
