@@ -2,7 +2,7 @@
 Hand wave emoji is animated by moving back and forth when a user hovers their mouse over it.
 
 ## View project
- :mag: View live version here: [nickhericks.github.io/hand-wave/](https://nickhericks.github.io/hand-wave/)
+ :mag: View live version here: [nickhericks.github.io/hand-wave-animation/](https://nickhericks.github.io/hand-wave-animation/)
 
 ## Project details
 I had the 👋 emoji on [my website](https://nickhericks.com) for about a year before I had the idea to animate it when a user hovers over it with their mouse. I thought it might be a fun surprise for users to discover. I know for me, finding easter eggs like this on other websites brings me a small bit of joy so the idea was that this might do the same. :)
