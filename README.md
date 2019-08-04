@@ -37,4 +37,4 @@ I had the 👋 emoji on [my website](https://nickhericks.com) for about a year b
 
 ## Acknowledgements
 Big thanks to Jake Jarvis for [this blog post](https://jarv.is/notes/css-waving-hand-emoji/)
-which helped me better understand how to use CSS animations. :raised_hands:
+which helped me to better understand how to use CSS animations. :raised_hands:
